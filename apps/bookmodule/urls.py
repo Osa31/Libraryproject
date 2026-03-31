@@ -6,5 +6,10 @@ urlpatterns = [
     path('list_books/', views.list_books, name="books.list_books"),
     path('<int:bookId>/', views.viewbook, name="books.view_one_book"),
     path('aboutus/', views.aboutus, name="books.aboutus"),
+    path('html5/links', views.task1_links),             # رابط المهمة 1
+    path('html5/formatting', views.task2_formatting), # رابط المهمة 2
+    path('html5/listing', views.task3_listing),         # رابط المهمة 3
+    path('html5/tables', views.task4_tables),
+    path('search', views.search, name="search"),
 
 ]

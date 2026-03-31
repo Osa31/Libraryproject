@@ -14,3 +14,59 @@ font-size: 17px;
 .topnav a.active{ 
 color: #008CBA; 
 }
+
+.link-box {
+    display: block;            
+    padding: 15px;             
+    text-align: center;        
+    text-decoration: underline;     
+    margin: 5px 0;             
+    font-size: 17px;           
+    width: 150%;               
+}
+
+.link-green { background-color: #C1FFC1; color: red; }    
+.link-grey  { background-color: #696969; color: yellow; } 
+.link-black { background-color: #000000; color: white; }  
+
+.header-box {
+    background-color: #5fb9a7; 
+    color: white;              
+    padding: 10px;
+    font-family: serif;
+}
+
+.header-box2 {
+    background-color: #f2f6d4; 
+    color: rgb(57, 146, 81);              
+    padding: 10px;
+    font-family: serif;
+}
+
+
+#table1 {
+    border-collapse: separate; 
+    margin: 20px auto;        
+    background-color: white;
+}
+
+#table2 {
+    border-collapse: collapse; 
+    margin: 20px auto;        
+    background-color: white;
+}
+
+
+table, th, td {
+    border: 1px solid black;   
+    padding: 5px;             
+}
+
+th {
+    background-color: #f2f2f2; 
+}
+
+.table-title {
+    text-align: center;
+    font-weight: bold;
+}
