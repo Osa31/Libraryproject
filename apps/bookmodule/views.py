@@ -56,3 +56,4 @@ def search(request):
         return render(request, 'bookmodule/bookList.html', {'books': newBooks})
     
     return render(request, 'bookmodule/search.html')
+    
