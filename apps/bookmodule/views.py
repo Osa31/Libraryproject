@@ -71,3 +71,4 @@ def complex_query(request):
         return render(request, 'bookmodule/booklist.html', {'books': mybooks}) 
     else:
         return render(request, 'bookmodule/index.html')
+

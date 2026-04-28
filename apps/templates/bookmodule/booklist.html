@@ -1,6 +1,17 @@
 {% block content %}
+<<<<<<< HEAD
     {% for obj in books %}
         ID: {{obj.id}}, Title: {{obj.title}}
         <hr>
     {% endfor %}
 {% endblock content %}
+=======
+    <h2>Search Results:</h2>
+    <ul>
+    {% for book in books %} <li>{{ book.title }} - {{ book.author }}</li>
+    {% empty %}
+        <li>No books found matching your search.</li> {% endfor %}
+    </ul>
+    <a href="{% url 'search' %}">Back to Search</a>
+{% endblock content %}
+>>>>>>> b4c531aee173f30d722622651d862c2f2a9beaf2
